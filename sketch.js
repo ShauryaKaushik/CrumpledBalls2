@@ -22,7 +22,7 @@ function setup(){
     boxStick2 = new Box(520,300,15,80);
 
 
-    ground = Bodies.rectangle(200,390,200,50,ground_options);
+    ground = Bodies.rectangle(200,390,400,50,ground_options);
     World.add(world,ground);
 
 }
