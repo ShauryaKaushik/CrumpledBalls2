@@ -7,8 +7,8 @@ class PaperBall{
           'density':1.5
       }
       this.body = Bodies.circle(x, y,radius);
-      this.width = width;
-      this.height = height;
+      this.width = radius;
+      this.height = radius;
       this.image = loadImage("paperBall.png");
       World.add(world, this.body);
     }
