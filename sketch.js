@@ -28,7 +28,7 @@ function setup(){
 }
 
 function draw(){
-    background(255);
+    background(0,0,255);
     Engine.update(engine);
     rectMode(CENTER);
     rect(ground.position.x,ground.position.y,1300,20);
