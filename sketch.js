@@ -39,7 +39,7 @@ function draw(){
     boxStick2.display()
 
  if(keyCode === UP_ARROW){
-   Matter.Body.applyForce(paperBall.body,paperBall.body.position,{x : 20 , y : -15})
+   Matter.Body.applyForce(paperBall.body,paperBall.body.position,{x : 25 , y : -25})
    }   
 }
 
